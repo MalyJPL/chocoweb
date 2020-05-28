@@ -1,0 +1,30 @@
+.circulo{
+    width: 500px;
+    height: 500px;
+    background-color: #783c00;
+    border-radius: 300px;
+    
+}
+
+.circulo img{
+    width: 90%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+}
+
+.centrar{
+    text-align: center;
+}
+
+button{
+    background-color: rgba(1,1,1,0);
+    color: #ffde73;
+    font-size: 30px;
+    border:none;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px  #783c00, 0 0 1em #c92e7a, 0 0 0.2em #c92e7a;
+}
+
+ul{
+    list-style: none;
+}

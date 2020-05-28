@@ -1,0 +1,21 @@
+@font-face{
+    font-family: wonka;
+    src: url("../../../assets/fonts/WillyWonka.ttf");
+}
+
+.contacto{
+    font-size: 100px;
+    font-family: wonka;
+    font-weight: bold;
+    color: #ffde73;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px  #783c00, 0 0 1em #c92e7a, 0 0 0.2em #c92e7a;
+display: flex;
+justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 20%;
+}

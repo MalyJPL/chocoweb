@@ -1,0 +1,59 @@
+@font-face{
+    font-family: wonka;
+    src: url(../../../assets/fonts/WillyWonka.ttf);
+}
+
+
+nav{
+    background-color:#ffde73;
+    font-family: wonka;
+}
+
+
+nav li{
+padding: 5px 5px 5px 5px;
+}
+
+nav a{
+    margin-right:  5px;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    color: #c92e7a;
+    font-size: 100px;
+}
+
+.sublogo{
+    color: #783c00;
+    font-size: 50px;
+}
+
+.submenu{
+    color:#783c00;
+    font-size: 50px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :link{
+    text-decoration: none;
+}
+
+a :visited{
+    text-decoration: none;
+}

@@ -1,0 +1,79 @@
+
+.cacao-content{
+        margin: 200px auto;
+        width: 400px;
+        text-align: center;
+        padding: 0 10% 0 10%;
+}
+
+.cacao-content .progress{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.progress{
+    padding: 6px;
+    background-color:rgba(255, 222, 115, 0.25) ;
+    border-radius: 4px;
+}
+
+.progress-bar{
+    height: 24px;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(255, 222, 115,0.25), rgba(120, 60, 0, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.25), inset 0 1p rgba(255,255,255,0.1)
+}
+
+#cero:checked ~ .progress > .progress-bar {
+	width: 0%;
+	background-color: #783c00;
+}
+
+#treinta:checked ~ .progress > .progress-bar {
+	width: 30%;
+	background-color: #783c00;
+}
+
+#cincuenta:checked ~ .progress > .progress-bar {
+	width: 50%;
+	background-color: #783c00;
+}
+
+#setenta:checked ~ .progress > .progress-bar {
+	width: 70%;
+	background-color: #783c00;
+}
+
+#ochenta:checked ~ .progress > .progress-bar {
+	width: 80%;
+	background-color: #783c00;
+}
+
+#cien:checked ~ .progress > .progress-bar {
+	width: 100%;
+	background-color: #783c00;
+}
+
+.radio{
+    display:none;
+}
+
+label{
+display: inline-block;
+margin:0 5px 20px;
+padding: 3px 8px;
+color: rgb(245,77,201);
+font-size: 30px;
+font-weight: bold;
+text-shadow: 0 2px #ffde73;
+border-radius: 3px;
+cursor:pointer;
+}
+
+.radio:checked + .label{
+    color:#ffde73;
+    text-shadow: 0 1px #783c00;
+    background-color: (201, 46, 122, 0.25);
+}

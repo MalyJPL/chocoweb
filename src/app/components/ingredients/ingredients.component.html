@@ -1,0 +1,16 @@
+<div class="centrar">
+<!-- <div class="circulo" *ngFor="let img of imagenes">
+    <img [src] = "img" />
+</div>   -->
+
+<ul>
+    <li *ngFor="let ingrediente of imagenes;let i = index">
+      <img   class="circulo" *ngIf="i == counter" @fade [src]="imagenes[i].src" alt="ingrediente.nombre">
+    </li>
+  </ul>
+  
+  
+  <button (click)="showPreviousImage()">anterior</button> || 
+  <button (click)="showNextImage()">siguiente</button>
+  
+</div>
