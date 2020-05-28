@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: wonka;
+    src: url(../../../assets/fonts/WillyWonka.ttf);
+}
 .cacao-content{
         margin: 200px auto;
         width: 400px;
@@ -65,7 +68,8 @@ display: inline-block;
 margin:0 5px 20px;
 padding: 3px 8px;
 color: rgb(245,77,201);
-font-size: 30px;
+font-family: wonka;
+font-size: 50px;
 font-weight: bold;
 text-shadow: 0 2px #ffde73;
 border-radius: 3px;
@@ -73,7 +77,7 @@ cursor:pointer;
 }
 
 .radio:checked + .label{
-    color:#ffde73;
-    text-shadow: 0 1px #783c00;
+    color: #783c00;
+    text-shadow: 0 1px #ffde73;
     background-color: (201, 46, 122, 0.25);
 }
